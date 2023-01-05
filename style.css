@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-image: url("./images/header_bg.png");
+    height: 850px;
+    width: 100%;
+    background-position:bottom right;
+    background-repeat: no-repeat;
+    display: flex;
+    background-blend-mode: darken;
+    background-color: #FFF8F3;
+}
+.imager{
+    margin-top: 30px;
+    width: 13%;
+}
+.mary{
+    width: 35%;
+}
+.mary h1{
+padding-top: 70px;
+font-size: 50px;
+}
+.mary span{
+    color: #FD6E0A;
+}
+.mary h2{
+    padding-top: 200px;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.mary h3{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.mary p{
+    color: #757575;
+    font-size: 18px;
+}
+.mary button{
+    margin-top: 40px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+}
+.navber{
+    width: 52%;
+    margin-top: 80px;
+    
+}
+.navber ul{
+    padding-left: 100px;
+}
+.navber img{
+    margin-top: 70px;
+    margin-left: 170px;
+}
+.navber ul li{
+    color: red;
+    display: inline;
+    margin-left: 50px;
+}
+.navber ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+.navber1{
+    margin-left: 180px;
+}
+#hire{
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+}
+
+/* header secation end  */
+section{
+    height: 600px;
+    width: 1200px;
+    margin: 130px auto;
+    display: block;
+    background-color: #FFF8F3;
+    text-align: center;
+
+}
+.secation1{
+    font-size: 35px;
+    font-weight: 700;
+   padding-top:150px;
+}
+section p{
+    padding:0 120px;
+    margin-top: 50px;
+    font-size: 18px;
+    color: #757575;
+}
+.about{
+    display: flex;
+    justify-content: center;
+}
+.about h1{
+    font-size: 18px;
+    padding-top: 40px;
+    padding-left: 120px;
+    color: #757575;
+}
+.about h2{
+    padding-left: 120px;
+    font-size: 20px;    
+    color: #474747;
+    padding-top: 7px;
+}
+.do{
+    font-size: 35px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 700;
+}
+.what{
+  display: flex;  
+  justify-content: center;
+}
+.js{
+    width: 200px;
+    padding: 40px;
+    margin-bottom: 50px;
+    box-shadow: 0px 6px 50px rgb(0 0 0 / 6%);
+    margin-left: 20px;
+}
+.js h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.js p{
+    color: #757575;
+}
+.summary{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.education{
+    height: 280px;
+    width: 1200px;
+    /* border: 1px solid salmon; */
+    margin: auto;
+    display: block;
+    display: flex;
+}
+.resume{
+    width: 48%;
+    margin-top: 20px;
+}
+.resume1{
+    width: 48%;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.education h3{
+    font-weight: bold;
+}
+.education h1{
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 25px;
+    color: #474747;
+}
+.education h2{
+    font-size: 20px;
+    color: #474747;
+    margin-top: 20px;
+}
+.education p{
+    color: #474747;
+    margin-top: 20px;
+}
+hr{
+    margin-top: 20px;
+}
+.cv{
+    margin-top: 40px;
+    padding: 18px 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin: 120px auto;
+    display: block;
+}
+.connect{
+    height: 800px;
+    width: 1200px;
+    background-color: #FFF8F3;
+   margin: 0 auto;
+   display: block;
+   display: flex;
+}
+.contact1{
+    width: 50%;
+    /* border: 1px solid salmon; */
+    padding-left: 200px;
+    padding-top: 200px;
+}
+.contact1 h1{
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.contact1 p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+.contact1 i{
+    padding-left: 10px;
+    font-size: 20px;
+    color: #FD6E0A;
+}
+.contact2{
+    width: 50%;
+    margin-left: 50px;
+}
+.contact2 input{
+    display: block;
+    margin-top: 50px;
+    height: 90px;
+    width: 368px;
+    border: none;
+}
+.contact2 textarea{
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+.contact2 input::placeholder{
+    padding-left: 20px;
+    
+}
+.contact2 button{
+background-color: #FD6E0A;
+padding: 22px 45px;
+border: none;
+border-radius: 5px;
+color: white;
+font-size: 20px;
+}
